@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DirectShowSource - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\jindh\AppData\Local\Temp\RSPA2C9.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "DIRECTSHOWSOURCE_EXPORTS" /FR"Debug/" /Fp"Debug/DirectShowSource.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\TestData\C_C++pro\C_C++开源代码相关情况\编译通过\十个开源\C++编译通过\avisynth_all\avisynth\src\core\avisynth.cpp"
+]
+Creating command line "cl.exe @C:\Users\jindh\AppData\Local\Temp\RSPA2C9.tmp" 
+<h3>Output Window</h3>
+Compiling...
+avisynth.cpp
+c:\testdata\c_c++pro\c_c++开源代码相关情况\编译通过\十个开源\c++编译通过\avisynth_all\avisynth\src\core\avisynth.cpp(35) : fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+avisynth.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

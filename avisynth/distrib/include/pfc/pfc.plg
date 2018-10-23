@@ -1,0 +1,53 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: pfc - Win32 Release ANSI--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP14E.tmp" with contents
+[
+/nologo /MD /W3 /GX /O1 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /D "pfc" /Fp"Release_ANSI/pfc.pch" /YX /Fo"Release_ANSI/" /Fd"Release_ANSI/" /FD /c 
+"G:\C++\K8对比漏报\源码\avisynth\distrib\include\pfc\byte_order_helper.cpp"
+"G:\C++\K8对比漏报\源码\avisynth\distrib\include\pfc\cfg_var.cpp"
+"G:\C++\K8对比漏报\源码\avisynth\distrib\include\pfc\guid.cpp"
+"G:\C++\K8对比漏报\源码\avisynth\distrib\include\pfc\mem_block.cpp"
+"G:\C++\K8对比漏报\源码\avisynth\distrib\include\pfc\profiler.cpp"
+"G:\C++\K8对比漏报\源码\avisynth\distrib\include\pfc\stdafx.cpp"
+"G:\C++\K8对比漏报\源码\avisynth\distrib\include\pfc\string.cpp"
+"G:\C++\K8对比漏报\源码\avisynth\distrib\include\pfc\utf8.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP14E.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP14F.tmp" with contents
+[
+/nologo /out:"Release_ANSI\pfc.lib" 
+".\Release_ANSI\byte_order_helper.obj"
+".\Release_ANSI\cfg_var.obj"
+".\Release_ANSI\guid.obj"
+".\Release_ANSI\mem_block.obj"
+".\Release_ANSI\profiler.obj"
+".\Release_ANSI\stdafx.obj"
+".\Release_ANSI\string.obj"
+".\Release_ANSI\utf8.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP14F.tmp"
+<h3>Output Window</h3>
+Compiling...
+byte_order_helper.cpp
+cfg_var.cpp
+guid.cpp
+mem_block.cpp
+profiler.cpp
+stdafx.cpp
+string.cpp
+utf8.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+pfc.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

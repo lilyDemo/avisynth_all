@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: avisynth - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\jindh\AppData\Local\Temp\RSP2B8D.bat" with contents
+[
+@echo off
+ml.exe -c -coff -Cx -Zi -Fo.\Debug\convert_a.obj .\convert\convert_a.asm
+]
+Creating command line "C:\Users\jindh\AppData\Local\Temp\RSP2B8D.bat"
+Creating command line "rc.exe /l 0x409 /fo"Debug/avisynth.res" /i "core" /d "_DEBUG" "C:\TestData\C_C++pro\C_C++开源代码相关情况\编译通过\十个开源\C++编译通过\avisynth_all\avisynth\src\core\avisynth.rc"" 
+Assembling .\convert\convert_a.asm...
+'ml.exe' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+Error executing c:\windows\system32\cmd.exe.
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+avisynth.dll - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
